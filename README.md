@@ -31,3 +31,40 @@ The goal is to make AI-assisted architectural visualization easier and more acce
 ## Example
 
 ### Input
+Property:
+Luxury villa
+Location:
+Sea view
+Style:
+Modern
+Lighting:
+Golden hour
+Camera:
+Drone movement
+Duration:
+10 seconds
+
+### Output
+Create a cinematic real estate video showcasing a luxury villa.
+Environment:
+The property is located with a beautiful sea view.
+Architectural style:
+Modern design with premium materials...
+Ultra realistic,
+8K resolution,
+cinematic color grading...
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/realestate-cine-prompt.git
+
+Move into the directory:
+cd realestate-cine-prompt
+Run the application:
+python app.py
+
