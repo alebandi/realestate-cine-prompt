@@ -4,9 +4,9 @@ Version 1.0
 
 
 Future improvements: 
- Streamlit web interface
- 50+ cinematic templates
- Image-to-video scene analysis
- Automatic storyboard generation
- Camera path generation
- API integration
+ - Streamlit web interface
+ - 50+ cinematic templates
+ - Image-to-video scene analysis
+ - Automatic storyboard generation
+ - Camera path generation
+ - API integration
