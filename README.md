@@ -68,20 +68,4 @@ cd realestate-cine-prompt
 Run the application:
 python app.py
 
----
-
-**## Roadmap**
-
-## Version 1.0
-- [x] Basic prompt generator
-- [x] Real estate templates
-
-## Future improvements
-
-- [ ] Streamlit web interface
-- [ ] 50+ cinematic templates
-- [ ] Image-to-video scene analysis
-- [ ] Automatic storyboard generation
-- [ ] Camera path generation
-- [ ] API integration
 
