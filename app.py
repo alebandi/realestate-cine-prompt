@@ -13,7 +13,8 @@ def _read_required(prompt):
         value = input(prompt).strip()
     except EOFError as error:
         field = prompt.split(" (", maxsplit=1)[0].lower()
-        raise PromptInputError(f"Input ended while reading {field}.") from error
+        message = f"Input ended while reading {field}."
+        raise PromptInputError(message) from error
 
     if not value:
         field = prompt.split(" (", maxsplit=1)[0]
@@ -38,9 +39,14 @@ def _read_duration():
 
 def generate_prompt():
     print("\n🎬 RealEstate Cine Prompt Generator\n")
-    print("Generate cinematic AI video prompts for real estate visualization.\n")
+    print(
+        "Generate cinematic AI video prompts "
+        "for real estate visualization.\n"
+    )
 
-    property_type = _read_required("Property type (villa/apartment/chalet): ")
+    property_type = _read_required(
+        "Property type (villa/apartment/chalet): "
+    )
     view = _read_required("View (sea/city/mountain/lake): ")
     style = _read_required("Style (luxury/modern/minimalist): ")
     time = _read_required("Time of day (sunset/golden hour/daylight): ")
